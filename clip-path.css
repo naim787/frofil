@@ -1,0 +1,60 @@
+
+body {
+  background-color: black;
+  color: white;
+  height: 200vmax;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+span {
+  color: #9000ff;
+}
+.name {
+  text-align: center;
+}
+.gallery div {
+  display: inline-block;
+ width: 300px;
+ height: 200px;
+ background-position: center;
+}
+.gallery {
+  display: flex;
+  margin: 100px auto;
+}
+.satu, .dua, .tiga, .empat {
+  display: inline-block;
+  margin: 5px;
+  border: 3px solid white;
+  border-radius: 20px;
+}
+.satu {
+  background-image: url(foto1.webp);
+}
+.dua {
+  background-image: url(foto2.webp);
+}
+.tiga {
+  background-image: url(foto3.webp);
+}
+.empat {
+  background-image: url(foto4.webp);
+}
+.beli {
+  color: white;
+  margin: 0px 150px;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 60px;
+  display: inline-block;
+  width: 150px;
+  height: 60px;
+  background-color: #5e00ff;
+}
+.gallery div:hover {
+  width: 600px;
+}
